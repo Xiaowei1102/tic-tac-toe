@@ -1,0 +1,10 @@
+.gamerow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gamerow > div {
+    min-width: 30px;
+    min-height: 30px;
+    text-align: center;
+}
