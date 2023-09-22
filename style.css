@@ -1,10 +1,22 @@
-.gamerow {
+.gameboard > div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.gamerow > div {
-    min-width: 30px;
-    min-height: 30px;
+[class^='row'] > div {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
     text-align: center;
+    vertical-align: middle;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: green;
 }
